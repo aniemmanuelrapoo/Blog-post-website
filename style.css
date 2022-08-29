@@ -383,6 +383,7 @@ footer ul a:hover{
 
 
 
+
 /* ===================== MEDIA QUERIES (tablet screen) ================== */
 @media screen and (max-width: 1024px) {
   /* general styles for responsive */
@@ -457,8 +458,6 @@ footer ul a:hover{
     animation-delay: 800ms;
   }
   
-
-
   /* nav drop down animation */
   @keyframes animateDropdown {
     0%{
@@ -553,5 +552,11 @@ footer ul a:hover{
   /* =========== BLOG ============== */
   .search__bar-container{
     width: var(--container-width-md);
+  }
+  
+  /* =========== SINGLEPOST ============== */
+  .singlepost__container{
+    background: transparent;
+    padding: 0;
   }
 }
