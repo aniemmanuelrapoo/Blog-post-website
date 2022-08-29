@@ -310,3 +310,23 @@ footer ul a:hover{
   border-top: 2px solid var(--color-bg);
   margin-top: 4rem;
 }
+
+/* ===================== MEDIA QUERIES (tablet screen) ================== */
+@media screen and (max-width: 1024px) {
+  /* general styles for responsive */
+  .container{
+    width: var(--container-width-md);
+  }
+
+  h2{
+    font-size: 1.6rem;
+  }
+
+  h3{
+    font-size: 1.2rem;
+  }
+
+  h5{
+    font-size: 0.8rem;
+  }
+}
