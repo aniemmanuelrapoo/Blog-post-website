@@ -399,7 +399,8 @@ footer ul a:hover{
   .form__section{
     display: grid;
     place-items: center;
-    height: 100vh;
+    height: fit-content;
+    margin: 5rem 0;
   }
 
   .form__section-container{
