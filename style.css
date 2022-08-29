@@ -388,6 +388,13 @@ footer ul a:hover{
     place-items: center;
   }
 
+  /* =========== EMPTY PAGE ============== */
+  .empty__page{
+    height: 70vh;
+    display: grid;
+    place-content: center;
+  }
+
 
 
 
