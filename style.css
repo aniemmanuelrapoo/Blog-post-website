@@ -400,7 +400,7 @@ footer ul a:hover{
     display: grid;
     place-items: center;
     height: fit-content;
-    margin: 5rem 0;
+    margin: 7rem 0 5rem;
   }
 
   .form__section-container{
