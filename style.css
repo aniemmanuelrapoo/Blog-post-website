@@ -538,6 +538,10 @@ footer ul a:hover{
   transition: var(--transition)
 }
 
+.sidebar__toggle{
+  display: none;
+}
+
 
 /* ===================== MEDIA QUERIES (tablet screen) ================== */
 @media screen and (max-width: 1024px) {
